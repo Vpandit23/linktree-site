@@ -9,7 +9,7 @@ body {
   font-family: Arial, sans-serif;
   background: url('download.gif') no-repeat center center fixed;
   background-size: cover;
-  
+  color: white
   
   display: flex;
   justify-content: center;
@@ -19,37 +19,27 @@ body {
 }
 
 
+
+
 .link-page {
-  width: 90 %;
-  max-width: 420 px;
-  padding: 35 px 25 px;
+  width: 90%;
+  max-width: 420px;
+  padding: 35px 25px;
   text-align: center;
 
-  background: rgba (8, 0, 0, 0);
-  border: 1 px solid rgba (255, 255, 255, 0.15);
-  border-radius: 25 px;
-  backdrop-filter: blur (12 px);
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url("./card-bg.jpg") center/cover no-repeat;
 
-  box-shadow: 0 20 px 40 px rgba (0, 0, 0, 0.35);
-}
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 25px;
+  backdrop-filter: blur(12px);
 
-.link-page{
-    background: url('card.jpg') no-repeat center center fixed;
-    background-size: 420 px 560 px;  
-}
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
 
-.link-page:hover {
-  background: url('card.jpg') no-repeat center center fixed;
-  transform: scale(1.05);
   transition: 0.3s ease;
-  background-size: 420px 560px;  
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.7),
-              0 0 40px rgba(255, 255, 255, 0.35)            
-  
-  
-  
+  overflow: hidden;
 }
-
 
 .profile img {
   width: 115 px;
