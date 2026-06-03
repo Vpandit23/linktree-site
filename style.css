@@ -5,7 +5,7 @@
 }
 
 body {
-  min-height: 100vh;
+  min-height: 100 vh;
   font-family: Arial, sans-serif;
   background: url('bg.gif') no-repeat center center fixed;
   background-size: cover;
@@ -20,22 +20,22 @@ body {
 
 
 .link-page {
-  width: 90%;
-  max-width: 420px;
-  padding: 35px 25px;
+  width: 90 %;
+  max-width: 420 px;
+  padding: 35 px 25 px;
   text-align: center;
 
-  background: rgba(8, 0, 0, 0);
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  border-radius: 25px;
-  backdrop-filter: blur(12px);
+  background: rgba (8, 0, 0, 0);
+  border: 1 px solid rgba (255, 255, 255, 0.15);
+  border-radius: 25 px;
+  backdrop-filter: blur (12 px);
 
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 20 px 40 px rgba (0, 0, 0, 0.35);
 }
 
 .link-page{
     background: url('card.jpg') no-repeat center center fixed;
-    background-size: 420px 560px;  
+    background-size: 420 px 560 px;  
 }
 
 .link-page:hover {
