@@ -52,51 +52,51 @@ body {
 
 
 .profile img {
-  width: 115px;
-  height: 115px;
-  border-radius: 50%;
+  width: 115 px;
+  height: 115 px;
+  border-radius: 50 %;
   object-fit: cover;
 
-  border: 3px solid white;
-  margin-bottom: 18px;
+  border: 3 px solid white;
+  margin-bottom: 18 px;
 }
 
 .profile img:hover {
 
-  transform: scale(1.3);
+  transform: scale (1.3);
   border-color: #f9f8f8;
-  box-shadow: 0 0 10px white,
-              0 0 20px white,
-              0 0 40px white;
-  transition: 0.3s ease;
+  box-shadow: 0 0 10 px white,
+              0 0 20 px white,
+              0 0 40 px white;
+  transition: 0.3 s ease;
 }
 
 .profile h1 {
-  font-size: 30px;
-  margin-bottom: 10px;
+  font-size: 30 px;
+  margin-bottom: 10 px;
 }
 
 .profile h1:hover {
   color: #f9f8f8;
-  text-shadow: 0 0 10px white,
-               0 0 20px white,
-               0 0 40px white;
-  transition: 0.3s ease;
+  text-shadow: 0 0 10 px white,
+               0 0 20 px white,
+               0 0 40 px white;
+  transition: 0.3 s ease;
 }
 
 .profile p {
-  font-size: 15px;
+  font-size: 15 px;
   color: #ffffff;
   line-height: 1.5;
-  margin-bottom: 28px;
+  margin-bottom: 28 px;
 }
 
 .profile p:hover {
   color: #f9f8f8;
-  text-shadow: 0 0 10px white,
-               0 0 20px white,
-               0 0 40px white;
-  transition: 0.3s ease;
+  text-shadow: 0 0 10 px white,
+               0 0 20 px white,
+               0 0 40 px white;
+  transition: 0.3 s ease;
 }
 
 
@@ -104,30 +104,30 @@ body {
 .links {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 12 px;
 }
 
 .links a {
   text-decoration: none;
   color: white;
-  font-size: 16px;
+  font-size: 16 px;
   font-weight: 600;
 
-  padding: 14px;
-  border-radius: 14px;
+  padding: 14 px;
+  border-radius: 14 px;
 
-  background: rgba(255, 255, 255, 0.12);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba (255, 255, 255, 0.12);
+  border: 1 px solid rgba (255, 255, 255, 0.2);
 
-  transition: 0.3s ease;
+  transition: 0.3 s ease;
 }
 
 .links a:hover {
   background: white;
   color: #020617;
-  transform: scale(1.2);
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.7),
-              0 0 40px rgba(255, 255, 255, 0.35);
+  transform: scale (1.2);
+  box-shadow: 0 0 20 px rgba (255, 255, 255, 0.7),
+              0 0 40 px rgba (255, 255, 255, 0.35);
 
 }
 
@@ -136,21 +136,21 @@ body {
   opacity: 1;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480 px) {
   .link-page {
-    padding: 28px 20px;
+    padding: 28 px 20 px;
   }
 
   .profile h1 {
-    font-size: 26px;
+    font-size: 26 px;
   }
 
   .profile p {
-    font-size: 14px;
+    font-size: 14 px;
   }
 
   .links a {
-    font-size: 15px;
-    padding: 13px;
+    font-size: 15 px;
+    padding: 13 px;
   }
 }
