@@ -7,7 +7,7 @@
 body {
   min-height: 100vh;
   font-family: Arial, sans-serif;
-  background: url('C:\\Users\\pandi\\FULL-STACK\\leetcode-solutions\\linktree-site\\download.gif') no-repeat center center fixed;
+  background: url('bg.gif') no-repeat center center fixed;
   background-size: cover;
   color: white;
   
@@ -34,12 +34,12 @@ body {
 }
 
 .link-page{
-    background: url('C:\\Users\\pandi\\FULL-STACK\\leetcode-solutions\\linktree-site\\download (3).jpg') no-repeat center center fixed;
+    background: url('card.jpg') no-repeat center center fixed;
     background-size: 420px 560px;  
 }
 
 .link-page:hover {
-  background: url('C:\\Users\\pandi\\FULL-STACK\\leetcode-solutions\\linktree-site\\download (3).jpg') no-repeat center center fixed;
+  background: url('card.jpg') no-repeat center center fixed;
   transform: scale(1.05);
   transition: 0.3s ease;
   background-size: 420px 560px;  
