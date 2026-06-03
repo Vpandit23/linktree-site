@@ -9,7 +9,7 @@ body {
   font-family: Arial, sans-serif;
 
   background: url("download.gif") no-repeat center center fixed;
-  background-size: contain;
+  background-size: cover;
 
   color: white;
 
