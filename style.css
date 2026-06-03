@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background: url('C:\\Users\\pandi\\FULL-STACK\\leetcode-solutions\\linktree-site\\download.gif') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+}
+
+
+.link-page {
+  width: 90%;
+  max-width: 420px;
+  padding: 35px 25px;
+  text-align: center;
+
+  background: rgba(8, 0, 0, 0);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 25px;
+  backdrop-filter: blur(12px);
+
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
+}
+
+.link-page{
+    background: url('C:\\Users\\pandi\\FULL-STACK\\leetcode-solutions\\linktree-site\\download (3).jpg') no-repeat center center fixed;
+    background-size: 420px 560px;  
+}
+
+.link-page:hover {
+  background: url('C:\\Users\\pandi\\FULL-STACK\\leetcode-solutions\\linktree-site\\download (3).jpg') no-repeat center center fixed;
+  transform: scale(1.05);
+  transition: 0.3s ease;
+  background-size: 420px 560px;  
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.7),
+              0 0 40px rgba(255, 255, 255, 0.35)            
+  
+  
+  
+}
+
+
+.profile img {
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+  object-fit: cover;
+
+  border: 3px solid white;
+  margin-bottom: 18px;
+}
+
+.profile img:hover {
+
+  transform: scale(1.3);
+  border-color: #f9f8f8;
+  box-shadow: 0 0 10px white,
+              0 0 20px white,
+              0 0 40px white;
+  transition: 0.3s ease;
+}
+
+.profile h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.profile h1:hover {
+  color: #f9f8f8;
+  text-shadow: 0 0 10px white,
+               0 0 20px white,
+               0 0 40px white;
+  transition: 0.3s ease;
+}
+
+.profile p {
+  font-size: 15px;
+  color: #ffffff;
+  line-height: 1.5;
+  margin-bottom: 28px;
+}
+
+.profile p:hover {
+  color: #f9f8f8;
+  text-shadow: 0 0 10px white,
+               0 0 20px white,
+               0 0 40px white;
+  transition: 0.3s ease;
+}
+
+
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+
+  padding: 14px;
+  border-radius: 14px;
+
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+
+  transition: 0.3s ease;
+}
+
+.links a:hover {
+  background: white;
+  color: #020617;
+  transform: scale(1.2);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.7),
+              0 0 40px rgba(255, 255, 255, 0.35);
+
+}
+
+
+.links a:hover {
+  opacity: 1;
+}
+
+@media (max-width: 480px) {
+  .link-page {
+    padding: 28px 20px;
+  }
+
+  .profile h1 {
+    font-size: 26px;
+  }
+
+  .profile p {
+    font-size: 14px;
+  }
+
+  .links a {
+    font-size: 15px;
+    padding: 13px;
+  }
+}
