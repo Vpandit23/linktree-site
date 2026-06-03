@@ -8,7 +8,7 @@ body {
   min-height: 100vh;
   font-family: Arial, sans-serif;
 
-  background: url('download.gif') no-repeat center center fixed;
+  background: url("download.gif") no-repeat center center fixed;
   background-size: cover;
 
   color: white;
@@ -20,16 +20,15 @@ body {
   overflow: hidden;
 }
 
-
 .link-page {
   width: 90%;
   max-width: 420px;
   padding: 35px 25px;
   text-align: center;
 
-  background: 
+  background:
     linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-    url('card.jpg') center/cover no-repeat;
+    url("card.jpg") center/cover no-repeat;
 
   border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 25px;
@@ -41,29 +40,37 @@ body {
   overflow: hidden;
 }
 
+.link-page:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.7),
+              0 0 40px rgba(255, 255, 255, 0.35);
+}
+
 .profile img {
   width: 115px;
   height: 115px;
   border-radius: 50%;
   object-fit: cover;
 
+  display: block;
+  margin: 0 auto 18px;
+
   border: 3px solid white;
-  margin-bottom: 18px;
+  transition: 0.3s ease;
 }
 
 .profile img:hover {
-
   transform: scale(1.3);
   border-color: #f9f8f8;
   box-shadow: 0 0 10px white,
               0 0 20px white,
               0 0 40px white;
-  transition: 0.3s ease;
 }
 
 .profile h1 {
   font-size: 30px;
   margin-bottom: 10px;
+  transition: 0.3s ease;
 }
 
 .profile h1:hover {
@@ -71,7 +78,6 @@ body {
   text-shadow: 0 0 10px white,
                0 0 20px white,
                0 0 40px white;
-  transition: 0.3s ease;
 }
 
 .profile p {
@@ -79,6 +85,7 @@ body {
   color: #ffffff;
   line-height: 1.5;
   margin-bottom: 28px;
+  transition: 0.3s ease;
 }
 
 .profile p:hover {
@@ -86,10 +93,7 @@ body {
   text-shadow: 0 0 10px white,
                0 0 20px white,
                0 0 40px white;
-  transition: 0.3s ease;
 }
-
-
 
 .links {
   display: flex;
@@ -112,18 +116,17 @@ body {
   transition: 0.3s ease;
 }
 
+.links:hover a {
+  opacity: 0.45;
+}
+
 .links a:hover {
+  opacity: 1;
   background: white;
   color: #020617;
   transform: scale(1.2);
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.7),
               0 0 40px rgba(255, 255, 255, 0.35);
-
-}
-
-
-.links a:hover {
-  opacity: 1;
 }
 
 @media (max-width: 480px) {
